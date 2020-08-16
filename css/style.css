@@ -1,0 +1,147 @@
+body{
+
+margin: 0;
+}
+img{
+	max-width: 100%;
+}
+header{
+	overflow: hidden;
+	padding: 10px 50px;
+	border-bottom: 1px solid #33333333;
+}
+.logo{width: 10%;
+	float: left;
+}
+.logo a{
+
+}
+.logo a img{
+	width: 100%;
+}
+nav{
+	width: 90%;
+	float: left;
+}
+nav ul{
+	text-align: right;
+	margin: 0;
+	padding: 0;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+}
+nav ul li a{
+	text-decoration: none;
+	color: #257134;
+	font-size: 25px;
+	padding: 20px 50px;
+	display: block;
+	transition: all 0.4s linear;
+}
+nav ul li a:hover{
+	background: #246434;
+	color: #fff;
+}
+.banner{
+
+}
+.banner1{
+	background-image: url(../images/baby.jpg);
+	background-attachment: fixed;
+}
+.banner2{
+	background-image: url(../images/food.jpg);
+	background-attachment: fixed;
+}
+.banner3{
+	background-image: url(../images/grocary.jpg);
+	background-attachment: fixed;
+}
+.banner4{
+	background-image: url(../images/jimnastick.jpg);
+	background-attachment: fixed;
+}
+.banner5{
+	background-image: url(../images/kids.jpg);
+	background-attachment: fixed;
+}
+.banner6{
+	background-image: url(../images/man.jpg);
+	background-attachment: fixed;
+}
+.banner7{
+	background-image: url(../images/woman.jpg);
+	background-attachment: fixed;
+}
+h1{
+	text-align: center;
+	margin: 0;
+	font-size: 80px;
+	padding: 350px;
+	color: #fff;
+	background-attachment: fixed;
+}
+
+h1 a{
+	color: #29803adb;
+	text-decoration: none;
+	background: #fff7d18c;
+	transition: all 0.4s linear;
+	padding: 15px 30px;
+}
+div h1 a:hover{
+	background: #246434;
+	color: #fff;
+
+}
+footer{
+	background: #c1c1c1;
+	margin: 0;
+	padding: 20px 0;
+	overflow: auto;
+}
+.copyright{
+    width: 40%;
+    float: left;
+}
+.copyright ul{
+	text-align: left;
+	margin: 0;
+	padding: 15px 30px;
+	display: block;
+	font-size: 22px;
+}
+.copyright ul li{
+	display: inline-block;
+}
+.copyright ul li a{
+	padding: 0 10px;
+	color: #2d2d2ddb;
+	text-decoration: none;
+}
+.copyright ul li a:hover;{
+	
+}
+.social{
+	width: 60%;
+	float: left;
+}
+.social ul{
+	text-align: right;
+	margin: 0;
+	padding: 15px 30px;
+	display: block;
+	font-size: 22px;
+}
+.social ul li{
+	display: inline-block;
+}
+.social ul li a{
+	padding: 0 10px;
+	color: #2d2d2ddb;
+}
+.social ul li a:hover;{
+
+}
